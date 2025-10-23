@@ -1,3 +1,5 @@
+#!/bin/bash
+
 read -p "Enter no. of files you want to delete:" files
 
 Count=1
