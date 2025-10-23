@@ -6,6 +6,6 @@ Count=1
 
 while [ $Count -le $files ]; do
         read -p "Enter the Name of the file:" name
-        touch "$name"
+        vim "$name"
         Count=$((Count + 1))
 done
